@@ -72,3 +72,20 @@ Hint: this command internally adjusted some registry values causing the driver t
 That's it! You're ready to rock 🎉
 
 ![2018-08-15_16-14-01.png](img/2018-08-15_16-14-01.png)
+
+## Driver removal
+
+Attention: ❗ removing `HG` requires a special procedure described here or else you could end up with no keyboard/mouse ❗
+
+For removal you don't need the original driver files, you will need `devcon` though so make sure you got it ready as described earlier.
+
+Then from an elevated PowerShell execute:
+
+```PowerShell
+C:\hg\devcon\x64\devcon.exe classfilter HIDClass upper !HidGuardian
+C:\hg\devcon\x64\devcon.exe remove Root\HidGuardian
+```
+
+Hint: it might have accidentally happened that your system has more than one virtual device. If that's the case, simply execute the two commands multiple times until they're all gone.
+
+Now reboot and you're good to go 😄
