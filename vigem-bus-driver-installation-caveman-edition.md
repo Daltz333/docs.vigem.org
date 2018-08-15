@@ -2,7 +2,7 @@
 
 If the path of the PowerShell failed you; don’t worry, we’ve got your back! 😉
 
-*Draft, hehe*
+Hint: Draft 🙃
 
 ## Preparations
 
@@ -34,7 +34,9 @@ A wizard pops up greeting you with a page you can skip 😊
 
 ![vmware_2018-08-15_13-02-39.png](img/vmware_2018-08-15_13-02-39.png)
 
-Choose the radio button `Install the hardware that I manually select from a list (Advanced)`. Don't worry, it won't get that "advanced", I promise 😜
+Choose the radio button `Install the hardware that I manually select from a list (Advanced)`. 
+
+Don't worry, it won't get that "advanced", I promise 😜
 
 ![2018-08-15_13-03-25.png](img/2018-08-15_13-03-25.png)
 
@@ -89,3 +91,19 @@ That's it! You've done it! Congratulations on your effort to finish this journey
 ## The path of command-line (devcon)
 
 To be done ❤️
+
+## How do I get rid of this
+
+Bus-Chan is sad to see you go 😿 but here's how to do it.
+
+In Device Manager, expand the `System devices` node and scroll to the `Virtual Gamepad Emulation Bus` entry. 
+
+Right-click on it and select `Uninstall device`:
+
+![2018-08-15_14-25-07.png](img/2018-08-15_14-25-07.png)
+
+Make sure to tick the box to also remove the driver files:
+
+![2018-08-15_14-25-39.png](img/2018-08-15_14-25-39.png)
+
+That's it! A reboot might be required for the removal to complete.
