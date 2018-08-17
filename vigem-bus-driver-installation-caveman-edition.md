@@ -22,7 +22,7 @@ Keep that path noted, we'll require it later on.
 
 ## The way of the GUI (Windows Device Manager)
 
-The Windows Device Manager is a management tool that's been built into Windows for ages. You can pretty much acomplish almost all device and driver management tasks with it. Depending on your version of Windows [there are multiple ways to open it](https://www.computerhope.com/issues/ch000833.htm); on Windows 10 you can simply right-click on the Windows logo in the taskbar or press the keyboard combination `Win + X`. A menu will po-up where you can fire up Device Manager:
+The Windows Device Manager is a management tool that's been built into Windows for ages. You can pretty much accomplish almost all device and driver management tasks with it. Depending on your version of Windows [there are multiple ways to open it](https://www.computerhope.com/issues/ch000833.htm); on Windows 10 you can simply right-click on the Windows logo in the taskbar or press the keyboard combination `Win + X`. A menu will po-up where you can fire up Device Manager:
 
 ![2018-08-15_13-01-55.png](img/2018-08-15_13-01-55.png)
 
@@ -34,7 +34,7 @@ A wizard pops up greeting you with a page you can skip 😊
 
 ![vmware_2018-08-15_13-02-39.png](img/vmware_2018-08-15_13-02-39.png)
 
-Choose the radio button `Install the hardware that I manually select from a list (Advanced)`. 
+Choose the radio button `Install the hardware that I manually select from a list (Advanced)`.
 
 Don't worry, it won't get that "advanced", I promise 😜
 
@@ -48,7 +48,7 @@ Ignore the Manufacturer and Model entries, hit `Have Disk...` instead:
 
 ![2018-08-15_13-03-56.png](img/2018-08-15_13-03-56.png)
 
-Now insert the driver floppy disk. Wait, no 🤨 We don't use floppies anymore, what a shame! Remmeber where you extracted the driver files previously? Yeah, hit `Browse...`:
+Now insert the driver floppy disk. Wait, no 🤨 We don't use floppies anymore, what a shame! Remember where you extracted the driver files previously? Yeah, hit `Browse...`:
 
 ![2018-08-15_13-04-11.png](img/2018-08-15_13-04-11.png)
 
