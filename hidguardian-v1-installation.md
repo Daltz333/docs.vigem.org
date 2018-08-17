@@ -79,7 +79,7 @@ Attention: ❗ removing `HG` requires a special procedure described here or else
 
 For removal you don't need the original driver files, you will need `devcon` though so make sure you got it ready as described earlier.
 
-Then from an elevated PowerShell execute:
+👉 Then from an elevated PowerShell execute:
 
 ```PowerShell
 C:\hg\devcon\x64\devcon.exe classfilter HIDClass upper !HidGuardian
@@ -89,3 +89,15 @@ C:\hg\devcon\x64\devcon.exe remove Root\HidGuardian
 Hint: it might have accidentally happened that your system has more than one virtual device. If that's the case, simply execute the two commands multiple times until they're all gone.
 
 Now reboot and you're good to go 😄
+
+### Registry clean-up
+
+Some registry keys and values can be safely removed manually after the driver is gone.
+
+In `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidGuardian\Parameters` the following values can be removed (if they exist):
+
+- `AffectedDevices`
+- `ExcemptedDevices`
+- `Force`
+
+The key `Computer\HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\HidGuardian\Parameters\Whitelist` and all sub-keys can be removed as well.
