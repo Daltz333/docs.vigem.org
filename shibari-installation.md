@@ -2,6 +2,10 @@
 
 Attention: `Shibari` isn't a finished product nor is it a drop-in replacement for the [ScpToolkit](https://github.com/nefarius/ScpToolkit) and it never will be. `Shibari` is an ongoing test platform and [proof of concept](https://en.wikipedia.org/wiki/Proof_of_concept) for dispatching input and output data between gaming peripherals. It's currently used to translate data between [FireShock **Gen2**](https://github.com/ViGEm/FireShock), [AirBender](https://github.com/ViGEm/AirBender) and `ViGEm`.
 
+## Target audience
+
+You're running Windows **8.1 or 10**, wanna use your DualShock 3 controller in pretty much any game and can't run/don't want to deal with ScpToolkit. You might give this a shot then 😊
+
 ## Prerequisites
 
 Make sure all of the following conditions are met and all dependencies are installed.
@@ -23,7 +27,7 @@ Attention: after you downloaded the archives, [make sure to unblock them](https:
 - Get the latest `Shibari.zip` [from here](https://buildbot.vigem.org/builds/Shibari/master/) (always pick the highest version number for most recent release)
 - Get the latest `FireShock.zip` [from here](https://downloads.vigem.org/projects/FireShock/stable/)
   - This is required for USB connection
-- Get the latest `AirBender.zip` [from here](https://downloads.vigem.org/projects/AirBender/stable/)
+- (Optional) Get the latest `AirBender.zip` [from here](https://downloads.vigem.org/projects/AirBender/stable/)
   - This is required for Bluetooth connection
 - Unblock all the archives. If you forget that, weird thing may happen 🙁
   ![2018-08-19_20-14-22.png](img/2018-08-19_20-14-22.png)
@@ -32,7 +36,7 @@ Attention: after you downloaded the archives, [make sure to unblock them](https:
 ### Install drivers
 
 - Right-click on the `FireShock.inf` file and select `Install`. If your DS3(s) is/are already connected, unplug and plug back in for the driver change to become active
-- Same goes basically for the `AirBender.inf` but be careful if you have multiple dongles and using Bluetooth for other devices; they might lose connectivity. If you wanna selectively use a dongle for the DS3, replace the stock driver with AirBender via Windows Device Manager. If you're not comfortable with that please stop before you ruin your system. You have been warned.
+- (Optional) Same goes basically for the `AirBender.inf` but be careful if you have multiple dongles and using Bluetooth for other devices; they might lose connectivity. If you wanna selectively use a dongle for the DS3, replace the stock driver with AirBender via Windows Device Manager. If you're not comfortable with that please stop before you ruin your system. You have been warned.
 - Install the `ViGEm Bus Driver`, [guide can be found here](vigem-bus-driver-installation.md)
 
 ### Ready for some action
