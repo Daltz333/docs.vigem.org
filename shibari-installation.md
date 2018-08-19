@@ -29,7 +29,7 @@ Attention: after you downloaded the archives, [make sure to unblock them](https:
   - This is required for USB connection
 - (Optional) Get the latest `AirBender.zip` [from here](https://downloads.vigem.org/projects/AirBender/stable/)
   - This is required for Bluetooth connection
-- Unblock all the archives. If you forget that, weird thing may happen 🙁
+- Unblock all the archives. If you forget that, weird things may happen 🙁
   ![2018-08-19_20-14-22.png](img/2018-08-19_20-14-22.png)
 - Extract the contents to a location of your choice (e.g. `C:\Shibari`)
 
