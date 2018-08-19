@@ -8,6 +8,7 @@ Content is work in progress!
 - [ViGEm Bus Driver Installation – caveman edition](https://docs.vigem.org/#!vigem-bus-driver-installation-caveman-edition.md)
 - [ViGEm Feeder](vigem-feeder.md)
 - [HidGuardian v1 driver installation](hidguardian-v1-installation.md)
+- [Shibari installation instructions](shibari-installation.md)
 
 ## Notes & Garbage
 
