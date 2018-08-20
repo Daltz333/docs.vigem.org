@@ -14,3 +14,4 @@ Content is work in progress!
 
 - [PID 1.0 Example Descriptor](pid-1-0-example-descriptor.md)
 - [Device Interface Identifiers](device-interface-identifiers.md)
+- [Automatically select latest Windows 10 SDK](automatically-select-latest-windows-10-sdk.md)

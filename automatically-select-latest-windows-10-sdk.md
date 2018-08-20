@@ -19,3 +19,7 @@ Add this new property group which gets evaluated by VS/MSBuild to the latest ins
   <TargetPlatformVersion>$(WindowsTargetPlatformVersion)</TargetPlatformVersion>
 </PropertyGroup>
 ```
+
+## Credits
+
+[Stolen from here](https://developercommunity.visualstudio.com/comments/190992/view.html) 😉
