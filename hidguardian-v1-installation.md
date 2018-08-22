@@ -71,6 +71,8 @@ Hint: this command internally adjusted some registry values causing the driver t
 
 That's it! You're ready to rock 🎉
 
+Attention: you'll either need to unplug and plug in your input devices or reboot the machine for the driver to work 🔥
+
 ![2018-08-15_16-14-01.png](img/2018-08-15_16-14-01.png)
 
 ## Driver removal
