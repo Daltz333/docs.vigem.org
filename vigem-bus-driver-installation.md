@@ -1,5 +1,7 @@
 # ViGEm Bus Driver Installation
 
+Hint: if the instructions described here fail you [check out the caveman edition](vigem-bus-driver-installation-caveman-edition.md)!
+
 ## How to install ViGEm Bus & Drivers
 
 The `ViGEm` drivers can be installed and updated via Windows built-in [PowerShell](https://docs.microsoft.com/en-us/powershell/scripting/getting-started/getting-started-with-windows-powershell). [You need at least PowerShell v5](https://docs.microsoft.com/en-us/powershell/wmf/5.1/install-configure) for the following commands to work (already included in Windows 10). Once prepared [fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) and follow the next steps.
