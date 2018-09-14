@@ -43,7 +43,7 @@ Get-ViGEmBusDevice
 
 This should spit out something like this:
 
-```PowerShell
+```text
 DevicePath         : \\?\ROOT#SYSTEM#0006#{96E42B22-F5E9-42F8-B043-ED0F932F014F}
 InstanceId         : ROOT\SYSTEM\0006
 DeviceName         : Virtual Gamepad Emulation Bus
