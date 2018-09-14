@@ -40,13 +40,13 @@ Alright, here we go 😊 take one last deep breath and continue reading carefull
 
 [Fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) and insert the following commands one after another:
 
-```PowerShell
+```text
 C:\hg\devcon\x64\devcon.exe install C:\hg\x64\HidGuardian.inf Root\HidGuardian
 ```
 
 Which is expected to return:
 
-```txt
+```text
 Device node created. Install is complete when drivers are installed...
 Updating drivers for Root\HidGuardian from C:\hg\x64\HidGuardian.inf.
 Drivers installed successfully.
@@ -56,13 +56,13 @@ Hint: this command created a virtual "dummy device" so the driver can get loaded
 
 And finally:
 
-```PowerShell
+```text
 C:\hg\devcon\x64\devcon.exe classfilter HIDClass upper -HidGuardian
 ```
 
 Which is expected to return:
 
-```txt
+```text
 Class filters changed. Restart the devices or reboot the system to make the change effective.
     HidGuardian
 ```
@@ -83,7 +83,7 @@ For removal you don't need the original driver files, you will need `devcon` tho
 
 👉 Then from an elevated PowerShell execute:
 
-```PowerShell
+```text
 C:\hg\devcon\x64\devcon.exe classfilter HIDClass upper !HidGuardian
 C:\hg\devcon\x64\devcon.exe remove Root\HidGuardian
 ```
