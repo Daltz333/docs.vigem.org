@@ -90,13 +90,27 @@ That's it! You've done it! Congratulations on your effort to finish this journey
 
 ## The path of command-line (devcon)
 
+The `devcon` utility is a small console program for common driver tasks created by Microsoft. The tool is unfortunately only "officially" redistributed by the rather huge Windows SDK. I'm hosting a copy you're invited to use so you don't need to install gigabytes of stuff you won't need 😁
+
+👉 [Download devcon](https://downloads.vigem.org/other/microsoft/devcon.zip)
+
+Extract the archive to a location of your choice (e.g. `C:\devcon`) so you'll end up wit the tool here:
+
+![explorer_2018-09-20_17-02-34.png](img/explorer_2018-09-20_17-02-34.png)
+
+[Fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) and execute the following command:
+
+```text
+C:\devcon\x64\devcon.exe install "D:\Downloads\ViGEmBus_signed_Win7-10_x86_x64_latest\x64\ViGEmBus.inf" Root\ViGEmBus
+```
+
 To be done ❤️
 
 ## How do I get rid of this
 
 Bus-Chan is sad to see you go 😿 but here's how to do it.
 
-In Device Manager, expand the `System devices` node and scroll to the `Virtual Gamepad Emulation Bus` entry. 
+In Device Manager, expand the `System devices` node and scroll to the `Virtual Gamepad Emulation Bus` entry.
 
 Right-click on it and select `Uninstall device`:
 
