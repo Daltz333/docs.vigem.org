@@ -12,8 +12,8 @@ Before installing the bus driver on Windows 7 (x86 or x64) the following 3rd par
   - 💾 [32-Bit (English)](http://download.microsoft.com/download/6/9/4/69446ACF-E625-4CCF-8F56-58B589934CD3/Xbox360_32Eng.exe)
   - 💾 [64-Bit (English)](http://download.microsoft.com/download/6/9/4/69446ACF-E625-4CCF-8F56-58B589934CD3/Xbox360_64Eng.exe)
 - [Microsoft Security Advisory 3033929 Update](https://technet.microsoft.com/en-us/library/security/3033929) has to be installed to support the drivers signature. Download links:
-  - [Security Update for Windows 7 (KB3033929)](https://www.microsoft.com/en-us/download/details.aspx?id=46078)
-  - [Security Update for Windows 7 for x64-based Systems (KB3033929)](https://www.microsoft.com/en-us/download/details.aspx?id=46148)
+  - 🔒 [Security Update for Windows 7 (KB3033929)](https://www.microsoft.com/en-us/download/details.aspx?id=46078)
+  - 🔒 [Security Update for Windows 7 for x64-based Systems (KB3033929)](https://www.microsoft.com/en-us/download/details.aspx?id=46148)
 
 ## How to install ViGEm Bus & Drivers
 
