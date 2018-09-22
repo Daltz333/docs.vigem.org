@@ -2,8 +2,6 @@
 
 If the path of the PowerShell failed you; don’t worry, we’ve got your back! 😉
 
-Hint: Draft 🙃
-
 ## Preparations
 
 👉 First of all grab the driver files: [ViGEmBus_signed_Win7-10_x86_x64_latest.zip](https://downloads.vigem.org/.stable/latest/windows/x86_64/ViGEmBus_signed_Win7-10_x86_x64_latest.zip)
@@ -101,10 +99,14 @@ Extract the archive to a location of your choice (e.g. `C:\devcon`) so you'll en
 [Fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) and execute the following command:
 
 ```text
-C:\devcon\x64\devcon.exe install "D:\Downloads\ViGEmBus_signed_Win7-10_x86_x64_latest\x64\ViGEmBus.inf" Root\ViGEmBus
+C:\devcon\x64\devcon.exe install "D:\Downloads\ViGEmBus\x64\ViGEmBus.inf" Root\ViGEmBus
 ```
 
-To be done ❤️
+Make sure the paths used in the example match your system. Execution will then looks similar to this:
+
+![powershell_2018-09-22_15-23-42.png](img/powershell_2018-09-22_15-23-42.png)
+
+And you're done! 🎉
 
 ## How do I get rid of this
 
