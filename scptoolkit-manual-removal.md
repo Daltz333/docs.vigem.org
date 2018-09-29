@@ -59,7 +59,7 @@ Sweet! Now we need to instruct Windows to revert the devices to their default dr
 
 ![libusbK-highlighted.png](img/scp/libusbK-highlighted.png)
 
-Expanding said node whall reveal the devices running under SCP's drivers:
+Expanding said node shall reveal the devices running under SCP's drivers:
 
 ![device-highlighted.png](img/scp/device-highlighted.png)
 
