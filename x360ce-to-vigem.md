@@ -23,17 +23,22 @@ It's not that hard. I swear! 😃
 ### Gather the files
 - Extract x360ce to it's own folder. EX: `Downloads\x360ce`
 - Put the VDX executable in the same folder as x360ce
+
 ![2018-09-29_16-41-39.png](img/2018-09-29_16-41-39.png)
 
 ### Configuring x360ce
 - Open the x360ce_x64 application and create the DLL that it prompts you to. 
+
 ![x360ce_x64_2018-09-29_16-44-21.png](img/x360ce_x64_2018-09-29_16-44-21.png)
 
 - You will be prompted to search the internet for default settings. Press next and finish through the dialog.
+
 ![x360ce_x64_2018-09-29_16-49-17.png](img/x360ce_x64_2018-09-29_16-49-17.png)
+
 ![x360ce_x64_2018-09-29_16-49-33.png](img/x360ce_x64_2018-09-29_16-49-33.png)
 
 - Configure your joystick controls.
+
 ![x360ce_x64_2018-09-29_16-54-11.png](img/x360ce_x64_2018-09-29_16-54-11.png)
 
 - In some cases where VDX does not detect your controller, you may need to press the `auto` button in the bottom right of the application before you modify the controls.
@@ -41,6 +46,7 @@ It's not that hard. I swear! 😃
 
 ### Enabling VDX
 - Open VDX and press connect
+
 ![VDX_2018-09-29_16-57-57.png](img/VDX_2018-09-29_16-57-57.png)
 
 ## Troubleshooting
