@@ -70,3 +70,7 @@ Right-click on each of theose and select `Uninstall`:
 We're sure we wanna do that 😋
 
 ![uninstall-ds3-confirm.png](img/scp/uninstall-ds3-confirm.png)
+
+Same goes for the Bluetooth host:
+
+![uninstall-bth-confirm.png](img/scp/uninstall-bth-confirm.png)
