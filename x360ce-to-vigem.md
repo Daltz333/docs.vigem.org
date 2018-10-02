@@ -3,18 +3,18 @@
 VDX is a ViGEm Feeder Application designed to create a System-Wide XBox360 or DualShock 4 joystick
 
 ## Target Audience
-- Users running a `modern` OS.  Windows 8.1 or Windows 10 😉
+- Windows 7 is the minimum OS version. Don't expect anything lower to be able to work 😉
 
 ## Prequisites
 - Setup [ViGEm Bus Driver](https://docs.vigem.org/#!vigem-bus-driver-installation.md) if you haven't already
 - Download and Install [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://visualstudio.microsoft.com/de/downloads/)
-- Download and Install [Microsoft Visual C++ Redistributable for Visual Studio 2013](http://www.microsoft.com/en-us/download/details.aspx?id=40784)
-- [DirectX End-User Runtime(June 2010)](http://www.microsoft.com/en-us/download/details.aspx?id=8109)
+- Download and Install all of x360ce required dependencies. A list can be found [here](https://github.com/x360ce/x360ce#system-requirements)
 
 ## Download VDX and x360ce
-
+ 
+- Please grab the appropriate build for your version of Windows. If in doubt, choose x32 or x86 bit builds.
 - Download the latest VDX application from [here](https://buildbot.vigem.org/builds/VDX/master/)
-- Download the latest x360ce x64 from [here](https://www.x360ce.com/)
+- Download the latest x360ce digitally signed application from [here](https://github.com/x360ce/x360ce#download)
 
 ## How to use
 
@@ -50,5 +50,6 @@ It's not that hard. I swear! 😃
 ![VDX_2018-09-29_16-57-57.png](img/VDX_2018-09-29_16-57-57.png)
 
 ## Troubleshooting
+`[Pad0_Error_10_2_2018.png](img/Pad0_Error_10_2_2018.png)
 `[Pad0] Misconfigured Device, check GUIDs`
 - Delete x360ce.ini and xinput1_3.dll from the application directory and relaunch x360ce
