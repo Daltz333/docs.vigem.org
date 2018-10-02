@@ -50,6 +50,7 @@ It's not that hard. I swear! 😃
 ![VDX_2018-09-29_16-57-57.png](img/VDX_2018-09-29_16-57-57.png)
 
 ## Troubleshooting
-![Pad0_Error_10_2_2018.png](img/Pad0_Error_10_2_2018.png) 
+![Pad0_Error_10_2_2018.png](img/Pad0_Error_10_2_2018.png)
+
 `[Pad0] Misconfigured Device, check GUIDs`
 - Delete x360ce.ini and xinput1_3.dll from the application directory and relaunch x360ce
