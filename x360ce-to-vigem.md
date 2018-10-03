@@ -15,7 +15,7 @@ VDX is a ViGEm Feeder Application designed to create a System-Wide XBox360 or Du
 ## Download VDX and x360ce
 
 - Please grab the appropriate build for your version of Windows. If in doubt, choose x32 or x86 bit builds.
-- Download the latest VDX application from [here](https://buildbot.vigem.org/builds/VDX/master/)
+- Download the latest VDX application from [here](https://buildbot.vigem.org/builds/VDX/master/) (select the highest version number for the latest edition)
 - Download the latest x360ce application from [here](https://github.com/x360ce/x360ce#download)
 
 ## How to use
