@@ -9,6 +9,7 @@ Content is work in progress!
 - [ViGEm Feeder](vigem-feeder.md)
 - [HidGuardian v1 driver installation](hidguardian-v1-installation.md)
 - [Shibari installation instructions](shibari-installation.md)
+- [x360ce to ViGEm proxy application setup](x360ce-to-vigem.md)
 
 ## Notes & Garbage
 
