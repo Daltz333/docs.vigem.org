@@ -44,7 +44,7 @@ Attention: Extract x360ce to its own folder and copy VDX into the same folder (e
 
 - Configure your joystick controls.
 
-![x360ce_x64_2018-09-29_16-54-11.png](img/x360ce_x64_2018-09-29_16-54-11.png)
+![2018-10-11_21-00-21.png](img/2018-10-11_21-00-21.png)
 
 - In some cases where VDX does not detect your controller, you may need to press the `auto` button in the bottom right of the application before you modify the controls.
 - Save and close out of x360ce
