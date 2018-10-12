@@ -2,7 +2,7 @@
 
 Hint: if the instructions described here fail you [check out the caveman edition](vigem-bus-driver-installation-caveman-edition.md)!
 
-## Prerequisits
+## Prerequisites
 
 ### Necessary preparations for Windows 7
 
