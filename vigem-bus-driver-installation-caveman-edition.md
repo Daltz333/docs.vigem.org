@@ -24,7 +24,7 @@ The Windows Device Manager is a management tool that's been built into Windows f
 
 ![2018-08-15_13-01-55.png](img/2018-08-15_13-01-55.png)
 
-The task we're seeking after is hidden under the `Action` menu and (a tad the misleading) named `Add legacy hardware`:
+The task we're seeking after is hidden under the `Action` menu and (a tad the misleading) named `Add legacy hardware`. To make this menu entry appear, select a random node (or simply the computer name) first:
 
 ![2018-08-15_13-02-13.png](img/2018-08-15_13-02-13.png)
 
