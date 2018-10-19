@@ -6,6 +6,7 @@ Getting drivers ready for production release is hard because of the many details
 
 ## Sources
 
+- 🔥 [Practical Windows Code and Driver Signing](http://www.davidegrayson.com/signing/)
 - 🔥 [OSR: Driver Signing — More Details Emerge](https://www.osr.com/blog/2016/06/02/driver-signing-details-emerge/)
 - 🔥 [how to start Windows Logo test for my driver?](https://stackoverflow.com/a/32274068)
 - [Windows Hardware Certification blog](https://blogs.msdn.microsoft.com/windows_hardware_certification/)
