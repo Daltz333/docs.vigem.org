@@ -17,3 +17,11 @@ Content is work in progress!
 - [Device Interface Identifiers](device-interface-identifiers.md)
 - [Automatically select latest Windows 10 SDK](automatically-select-latest-windows-10-sdk.md)
 - [Fix Install-Module not found in PowerShellGet](fix-import-module-powershellget.md)
+- [vJoy HID Report Descriptor](vjoy-hid-pid-device-descriptor.md)
+
+## Work In Progress
+
+- [Manual removal or ScpToolkit residue](scptoolkit-manual-removal.md)
+- [Bluetooth Pairing with Shibari](shibari-pair-device.md)
+- [WinDbg Cheat Sheet - Driver Dev Edition](windbg-cheat-sheet.md)
+- [Windows Driver Signing](windows-driver-signing.md)
