@@ -15,3 +15,4 @@ Getting drivers ready for production release is hard because of the many details
 - [OSR: Building Drivers For Different Versions of Windows Revisited](https://community.osr.com/discussion/282666)
 - [Windows Digital Driver Signing and Certification](http://www.jungo.com/st/support/documentation/windriver/12.2.1/wdpci_manual.mhtml/driver_sign.html)
 - [Error while starting HCK studio on server 2008 r2](https://stackoverflow.com/questions/22559106/error-while-starting-hck-studio-on-server-2008-r2)
+- [Signing Windows 8 Drivers](http://pixcl.com/Signing-Windows-8-Drivers.htm)
