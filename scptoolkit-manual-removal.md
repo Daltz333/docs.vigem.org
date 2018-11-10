@@ -2,6 +2,10 @@
 
 Hint: ongoing draft 🙃
 
+## About
+
+This article will walk you through the process of removing any traces of various versions of [ScpToolkit](https://github.com/nefarius/ScpToolkit) from your machine 😊
+
 ## Stop processes, remove the service
 
 Attention: make sure to run the following commands in an [administratove prompt](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)!
