@@ -18,6 +18,7 @@ Content is work in progress!
 - [Automatically select latest Windows 10 SDK](automatically-select-latest-windows-10-sdk.md)
 - [Fix Install-Module not found in PowerShellGet](fix-import-module-powershellget.md)
 - [vJoy HID Report Descriptor](vjoy-hid-pid-device-descriptor.md)
+- [HID-related stuff - link collection](hid/link-collection.md)
 
 ## Work In Progress
 
