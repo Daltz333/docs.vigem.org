@@ -1,4 +1,4 @@
-# Manual removal or ScpToolkit residue
+# Manual removal of ScpToolkit residue
 
 Hint: ongoing draft 🙃
 
@@ -8,7 +8,7 @@ This article will walk you through the process of removing any traces of various
 
 ## Stop processes, remove the service
 
-Attention: make sure to run the following commands in an [administratove prompt](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)!
+Attention: make sure to run the following commands in an [administrative prompt](https://www.thewindowsclub.com/how-to-run-command-prompt-as-an-administrator)!
 
 The following commands terminate all SCP components that might currently run:
 
