@@ -1,6 +1,6 @@
 # HidGuardian v1 driver installation
 
-Attention: this article covers the installation of the (deprecated) HidGuardian **major version 1** (a.k.a. **Gen1**) driver. Its development has been discontinued yet there's software out there depending on it. Please make sure you need **version 1** first before going through this article 😲
+Attention: this article covers the installation of the (deprecated) HidGuardian **major version 1** (a.k.a. **Gen1**) driver. Its development has been discontinued yet there's software out there depending on it. Please make sure you need **version 1** first before going through this article. 😲
 
 ## About
 

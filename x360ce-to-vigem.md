@@ -8,7 +8,7 @@ VDX is a ViGEm Feeder Application designed to create a System-Wide XBox360 or Du
 
 - Windows 7 is the minimum OS version. Don't expect anything lower to be able to work 😉
 
-## Prequisites
+## Prerequisites
 
 - Setup [ViGEm Bus Driver](https://docs.vigem.org/#!vigem-bus-driver-installation.md) if you haven't already
 - Download and Install [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://visualstudio.microsoft.com/de/downloads/)

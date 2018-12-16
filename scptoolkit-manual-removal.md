@@ -67,7 +67,7 @@ Expanding said node shall reveal the devices running under SCP's drivers:
 
 ![device-highlighted.png](img/scp/device-highlighted.png)
 
-Right-click on each of theose and select `Uninstall`:
+Right-click on each of those and select `Uninstall`:
 
 ![device-uninstall.png](img/scp/device-uninstall.png)
 

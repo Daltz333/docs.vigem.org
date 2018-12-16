@@ -14,7 +14,7 @@ Navigate to the file system path `C:\Program Files\WindowsPowerShell\Modules\Pow
 
 ![2018-08-22_20-28-05.png](img/2018-08-22_20-28-05.png)
 
-If you see one or more folders named **differently** than  `1.0.0.1`, delete them. Re-open PowerShell and the the installation again. It should now display the expected consent message:
+If you see one or more folders named **differently** than  `1.0.0.1`, delete them. Re-open PowerShell and the installation again. It should now display the expected consent message:
 
 ![powershell_2018-08-22_17-00-52.png](img/powershell_2018-08-22_17-00-52.png)
 

@@ -45,9 +45,9 @@ You made it this far? Great! Now simply fire up `Shibari.Dom.Server.exe` and you
 
 ## Run Shibari in the background
 
-`Shibari` can easily be installed as a Windows Service running in the background without the need to start it every time you'd like to user your DS3 and have an additional Window open all the time.
+`Shibari` can easily be installed as a Windows Service running in the background without the need to start it every time you'd like to use your DS3 and have an additional Window open all the time.
 
-[Fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) ad run the `Shibari.Dom.Server.exe` file with `install` as an argument, like so:
+[Fire up PowerShell as Administrator](https://www.top-password.com/blog/5-ways-to-run-powershell-as-administrator-in-windows-10/) and run the `Shibari.Dom.Server.exe` file with `install` as an argument, like so:
 
 ![powershell_2018-08-19_20-17-52.png](img/powershell_2018-08-19_20-17-52.png)
 
