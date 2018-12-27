@@ -2,9 +2,9 @@
 
 ## About
 
-The command line tool `dsctl` can interact with devices running under the `FireShock`/`WireShock` driver pair. It can query devices for certain details, retreive and update configuration properties and more.
+The command line tool `dsctl` can interact with devices running under the `FireShock`/`WireShock` driver pair. It can query devices for certain details, retrieve and update configuration properties and more.
 
-Attention: `dsctl` is currently under heavy development and evolving along the companion drivers. It might malfunction dependig on the build you use.
+Attention: `dsctl` is currently under heavy development and evolving alongside the companion drivers. It might malfunction depending on the build you use.
 
 ## Use Cases
 
@@ -26,21 +26,21 @@ Use the `Device address` with the `-d` argument and enter the new Bluetooth host
 
 ## Adapt driver configuration
 
-With `dsctl -c` configuration properties of the device driver can be fetched and optionally updated. These properties typically change certain behaviours of the device.
+With `dsctl -c` configuration properties of the device driver can be fetched and optionally updated. These properties typically change certain behaviors of the device.
 
 ### Change HID device mode
 
-To increase compatibility with existing APIs and Software, the device can present itself in either `single` (all standard buttons and axes are presented as one Gamepad device, including sliders for pressure values) or `multi` (standard buttons and axes as Gamepad, pressure axes as 2nd Joystick device) mode.
+To increase compatibility with existing APIs and software, the device can present itself in either `single` (all standard buttons and axes are presented as one Gamepad device, including sliders for pressure values) or `multi` (standard buttons and axes as Gamepad, pressure axes as 2nd Joystick device) mode.
 
-The standard mode is `single`. It can be changed with the `--device-mode` argument.
+The default mode is `single`. It can be changed with the `--device-mode` argument.
 
-Example changing to `single` mode:
+Example of changing to `single` mode:
 
 ```PowerShell
 dsctl -c -d XX:XX:XX:XX:XX:XX --device-mode single
 ```
 
-Example changing to `multi` mode:
+Example of changing to `multi` mode:
 
 ```PowerShell
 dsctl -c -d XX:XX:XX:XX:XX:XX --device-mode multi
@@ -50,18 +50,18 @@ Attention: changing this property requires reconnecting the affected device afte
 
 ### Mute digital button state changes
 
-This feature is especially useful if you're binding/mapping pressure sensitive buttons in applications. Due to the mechanical design of certain controllers, the state change of the digital button (pressed, not pressed) is reported earlier than the changing axis value (pressure level), therefore the digital button "wins" the assignment over the pressure axis. To circumvent this the digital button states can be "muted" (a.k.a. no more stat changes will be reported) with the `--mute-buttons` option.
+This feature is especially useful if you're binding/mapping pressure sensitive buttons in applications. Due to the mechanical design of certain controllers, the state change of the digital button (pressed, not pressed) is reported earlier than the changing axis value (pressure level), therefore the digital button "wins" the assignment over the pressure axis. To circumvent this the digital button states can be "muted" (a.k.a. no more state changes will be reported) with the `--mute-buttons` option.
 
-Example muting buttons:
+Example of muting buttons:
 
 ```PowerShell
 dsctl -c -d XX:XX:XX:XX:XX:XX --mute-buttons yes
 ```
 
-Example unmuting buttons (restoring default behaviour):
+Example of unmuting buttons (restoring default behavior):
 
 ```PowerShell
 dsctl -c -d XX:XX:XX:XX:XX:XX --mute-buttons no
 ```
 
-Hint: this change becomes active immediately.
+Note: this change becomes active immediately.

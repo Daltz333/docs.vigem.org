@@ -20,11 +20,11 @@ Keep that path noted, we'll require it later on.
 
 ## The way of the GUI (Windows Device Manager)
 
-The Windows Device Manager is a management tool that's been built into Windows for ages. You can pretty much accomplish almost all device and driver management tasks with it. Depending on your version of Windows [there are multiple ways to open it](https://www.computerhope.com/issues/ch000833.htm); on Windows 10 you can simply right-click on the Windows logo in the taskbar or press the keyboard combination `Win + X`. A menu will po-up where you can fire up Device Manager:
+The Windows Device Manager is a management tool that's been built into Windows for ages. You can pretty much accomplish almost all device and driver management tasks with it. Depending on your version of Windows [there are multiple ways to open it](https://www.computerhope.com/issues/ch000833.htm); on Windows 10 you can simply right-click on the Windows logo in the taskbar or press the keyboard combination `Win + X`. A menu will pop-up where you can fire up Device Manager:
 
 ![2018-08-15_13-01-55.png](img/2018-08-15_13-01-55.png)
 
-The task we're seeking after is hidden under the `Action` menu and (a tad the misleading) named `Add legacy hardware`. To make this menu entry appear, select a random node (or simply the computer name) first:
+The task we're seeking after is hidden under the `Action` menu and (a tad bit misleading) named `Add legacy hardware`. To make this menu entry appear, select a random node (or simply the computer name) first:
 
 ![2018-08-15_13-02-13.png](img/2018-08-15_13-02-13.png)
 
@@ -70,7 +70,7 @@ It's doing something! Exciting! 😃
 
 ![vmware_2018-08-15_12-59-41.png](img/vmware_2018-08-15_12-59-41.png)
 
-👮 If you've never installed the driver before, Windows would like you to confirm that you trust the publisher (me). 
+👮 If you've never installed the driver before, Windows would like you to confirm that you trust the publisher (me).
 
 You do trust me, right? Right?! 😰
 
@@ -88,11 +88,11 @@ That's it! You've done it! Congratulations on your effort to finish this journey
 
 ## The path of command-line (devcon)
 
-The `devcon` utility is a small console program for common driver tasks created by Microsoft. The tool is unfortunately only "officially" redistributed by the rather huge Windows SDK. I'm hosting a copy you're invited to use so you don't need to install gigabytes of stuff you won't need 😁
+The `devcon` utility is a small console program for common driver tasks created by Microsoft. The tool is unfortunately only "officially" redistributed by the rather huge Windows SDK. I'm hosting a copy that you're invited to use so you don't need to install gigabytes of stuff you won't need 😁
 
 👉 [Download devcon](https://downloads.vigem.org/other/microsoft/devcon.zip)
 
-Extract the archive to a location of your choice (e.g. `C:\devcon`) so you'll end up wit the tool here:
+Extract the archive to a location of your choice (e.g. `C:\devcon`) so you'll end up with the tool here:
 
 ![explorer_2018-09-20_17-02-34.png](img/explorer_2018-09-20_17-02-34.png)
 
