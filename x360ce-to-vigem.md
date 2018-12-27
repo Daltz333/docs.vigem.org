@@ -11,7 +11,9 @@ VDX is a ViGEm Feeder Application designed to create a System-Wide XBox360 or Du
 ## Prequisites
 
 - Setup [ViGEm Bus Driver](https://docs.vigem.org/#!vigem-bus-driver-installation.md) if you haven't already
-- Download and Install [Microsoft Visual C++ Redistributable for Visual Studio 2017](https://visualstudio.microsoft.com/de/downloads/)
+- Download and Install `Microsoft Visual C++ Redistributable for Visual Studio 2017`
+  - [x64 direct link](https://aka.ms/vs/15/release/VC_redist.x64.exe)
+  - [x86 direct link](https://aka.ms/vs/15/release/VC_redist.x86.exe)
 - Download and Install all of x360ce required dependencies. A list can be found [here](https://github.com/x360ce/x360ce#system-requirements)
 
 ## Download VDX and x360ce
